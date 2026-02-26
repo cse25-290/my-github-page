@@ -36,6 +36,28 @@ main {
 
 main img {
   max-width: 100%;
+
+p {
+  font-size: 1.1em
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoraion: none;
+}
+
+img {
+  border: 5px solid #4CAF50;
+  border-radius: 10px;
+}
+
+main a[href^="mailto:"] {
+  color: #ff5722;
+  font-weight: bold; 
   height: auto;
   display: block;
   margin: 20px 0;
